@@ -14,7 +14,7 @@ public class ManualPlayer extends Player {
 
     @Override
     public void takePlayerTurn() {
-        //printExampleStateInformation();
+        printExampleStateInformation();
         String response = "";
         do {
             System.out.println("fold, check, call, raise, or all in? [fold/check/call/raise/all]");
